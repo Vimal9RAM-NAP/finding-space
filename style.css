@@ -1,3 +1,5 @@
+@import url('https://googleapis.com');
+
 :root {
   --bg-gradient: linear-gradient(45deg, #0284c7 0%, #030712 65%, #020617 100%);
   --neon-yellow: #facc15;
