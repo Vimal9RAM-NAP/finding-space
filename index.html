@@ -1,47 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finding Space | Abandoned but Not Forgotten</title>
-    <link rel="stylesheet" href="style.css">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FINDING SPACE | NASA Space Apps 2026</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="hero-section">
-        <div class="container">
-            <span class="badge">NASA Space Apps Challenge</span>
-            <h1>Finding Space</h1>
-            <p class="subtitle">Exploring the silent monuments left behind on the Moon and Mars—and the living legacies they left in our science.</p>
-        </div>
+  
+  <div id="viewDashboard" class="view active-view">
+    
+    
+    <header class="dashboard-header">
+      <h1 class="main-title">FINDING SPACE</h1>
+      <p class="small-description">Exploring the silent monuments left behind on the Moon and Mars—and the living legacies they left in our science.</p>
     </header>
 
-    <main class="container">
-        <section class="artifact-grid" id="artifactGrid">
-            
-        </section>
-
+    
+    <main class="wave-container-wrapper">
+      <div id="waveCardsContainer" class="wave-cards-container">
         
-        <div id="detailModal" class="modal hidden">
-            <div class="modal-content">
-                <button id="closeModal" class="close-btn">&times;</button>
-                <h2 id="modalTitle"></h2>
-                <span id="modalLocation" class="location-tag"></span>
-                <p id="modalStory"></p>
-                <div class="science-box">
-                    <h3>The Science Legacy</h3>
-                    <p id="modalScience"></p>
-                </div>
-            </div>
-        </div>
+      </div>
     </main>
 
-    <footer>
-        <p>Built with curiosity for the NASA Space Apps Challenge | <span id="year"></span></p>
-    </footer>
+    
+    <footer class="dashboard-footer">
+      <div class="my-socials">
+        <a href="https://github.com/Vimal9RAM-NAP" target="_blank" class="social-box" title="GitHub">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="social-box" title="LinkedIn">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+        </a>
+        <a href="https://itch.io" target="_blank" class="social-box" title="itch.io">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M3.35 2a1.35 1.35 0 00-1.35 1.35v1.23a1.35 1.35 0 00.4.95l2.4 2.4V20.5A1.5 1.5 0 006.3 22h11.4a1.5 1.5 0 001.5-1.5V7.93l2.4-2.4a1.35 1.35 0 00.4-.95V3.35A1.35 1.35 0 0020.65 2H3.35zM7.5 11h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2a1 1 0 011-1zm7 0h2a1 1 0 011 1v2a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2a1 1 0 011-1z"/></svg>
+        </a>
+        <a href="#" class="social-box" title="Web">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+        </a>
+      </div>
 
-    <script src="app.js"></script>
+      <div class="footer-center">
+        <span>NASA APPS CHALLENGE 2026</span>
+      </div>
+
+      <div class="footer-right">
+        <button id="btnAboutMe" class="btn-outline">ABOUT ME</button>
+      </div>
+    </footer>
+  </div>
+
+  
+  <div id="viewDetail" class="view hidden-view">
+    
+    
+    <nav class="detail-nav">
+      <div class="thing-name-box">
+        <span id="detailTitle" class="thing-name-text">NAME OF THE THING</span>
+      </div>
+
+      <div class="share-btn-wrapper">
+        <button id="btnShare" class="share-button" title="Share Artifact">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </button>
+        <span class="share-label">SHARE BUTTON</span>
+      </div>
+
+      <div class="go-back-wrapper">
+        <button id="btnGoBack" class="btn-accent">GO BACK</button>
+      </div>
+    </nav>
+
+    
+    <section class="banner-section">
+      <div class="banner-container">
+        <img id="detailBannerImg" src="" alt="Wide Reference View" class="banner-image">
+        <div class="banner-overlay">WIDE IMAGE (OF THE REFERENCE)</div>
+      </div>
+    </section>
+
+    
+    <section class="content-section">
+      <div class="description-block">
+        <h2 class="section-heading">DESCRIPTION</h2>
+        <p id="detailDescription" class="description-text"></p>
+      </div>
+    </section>
+  </div>
+
+  
+  <div id="aboutModal" class="modal-overlay hidden-modal">
+    <div class="modal-box">
+      <button id="btnCloseModal" class="close-modal">&times;</button>
+      <h2 class="modal-title">ABOUT ME</h2>
+      <p class="modal-body">Built by <strong>Odd Jobs Dev</strong> for the <strong>NASA Space Apps Challenge 2026</strong> under the prompt <em>"Abandoned but not Forgotten: Storytelling about NASA's Discarded Equipment on the Moon and Mars"</em>.</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
