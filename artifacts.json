@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Apollo 11 Retroreflector",
+    "shortDesc": "A panel of 100 mirrors left on the Moon that still bounces Earth lasers today...",
+    "fullDesc": "Left behind by Neil Armstrong and Buzz Aldrin in 1969, the Laser Ranging Retroreflector is a simple array of optical corner cubes. Because it requires no power, scientists shoot high-powered laser pulses at it from Earth to this day. By measuring the bounce-back time down to the picosecond, we can track the Moon's exact orbit and distance from Earth with millimeter precision.",
+    "thumbnail": "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?w=400&q=80",
+    "banner": "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?w=1200&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Opportunity Rover ('Oppy')",
+    "shortDesc": "Designed for a 90-day mission, Oppy explored Mars for nearly 15 full years...",
+    "fullDesc": "Opportunity landed in Meridiani Planum on Mars in 2004 with a target operational lifespan of just 90 sols. Exceeding every expectation, 'Oppy' traveled over 28 miles (45 km) across Martian dust storms and deep craters before sending its final transmission in 2018. It proved beyond doubt that liquid water once flowed across the surface of Mars.",
+    "thumbnail": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=400&q=80",
+    "banner": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=1200&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Perseverance Heat Shield",
+    "shortDesc": "Absorbed intense solar-level heat to safeguard the rover during Martian entry...",
+    "fullDesc": "During the terrifying 'Seven Minutes of Terror' on February 18, 2021, Perseverance entered Mars' atmosphere at over 12,000 mph. The massive thermal heat shield absorbed temperatures reaching 2,370°F (1,300°C) before being jettisoned. Today, its fragments sit in Jezero Crater, a testament to hypersonic thermal protection engineering.",
+    "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&q=80",
+    "banner": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Apollo 15 Lunar Roving Vehicle",
+    "shortDesc": "The first electric moon buggy that allowed astronauts to venture miles away...",
+    "fullDesc": "Deployed in 1971, the Apollo 15 LRV allowed David Scott and James Irwin to travel over 17 miles across the Hadley-Apennine region. Driven by four 0.25-horsepower electric motors, all three Lunar Rovers (Apollo 15, 16, and 17) remain parked on the Moon, preserving humanity's first off-world tire tracks.",
+    "thumbnail": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=400&q=80",
+    "banner": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=1200&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Schiaparelli EDM Lander",
+    "shortDesc": "An experimental lander that provided key atmospheric descent data on Mars...",
+    "fullDesc": "Launched by the European Space Agency and Roscosmos in 2016, Schiaparelli was an entry, descent, and landing demonstrator module. Though a sensor error caused premature parachute release, the lander beamed back invaluable aerodynamic and atmospheric telemetry during descent, informing the design of future planetary landers.",
+    "thumbnail": "https://images.unsplash.com/photo-1614728423169-3f65fd722b7e?w=400&q=80",
+    "banner": "https://images.unsplash.com/photo-1614728423169-3f65fd722b7e?w=1200&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Surveyor 3 Moon Probe",
+    "shortDesc": "The only probe ever visited by humans on another celestial body in history...",
+    "fullDesc": "Landing on Oceanus Procellarum in April 1967, Surveyor 3 paved the way for human landings. In November 1969, Apollo 12 astronauts Pete Conrad and Alan Bean landed within walking distance, inspected the probe, and harvested parts of its camera assembly to return to Earth for bio-contamination analysis.",
+    "thumbnail": "https://images.unsplash.com/photo-1517976487492-5750f3195933?w=400&q=80",
+    "banner": "https://images.unsplash.com/photo-1517976487492-5750f3195933?w=1200&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Spirit Rover (MER-A)",
+    "shortDesc": "Trapped in Martian sand dunes in 2009, turned into a silent solar outpost...",
+    "fullDesc": "Spirit landed on Mars in 2004, exploring Gusev Crater. In 2009, its wheels broke through a crusty surface into soft sand at Home Plate. Unable to free itself, NASA repurposed Spirit into a stationary station before loss of solar power during the harsh Martian winter of 2010.",
+    "thumbnail": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=400&q=80",
+    "banner": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=1200&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Ingenuity Mars Helicopter",
+    "shortDesc": "The first powered aircraft to fly on another planet, completing 72 flights...",
+    "fullDesc": "Originally planned as a 30-day technology demonstration with up to 5 flights, Ingenuity flew 72 times across Jezero Crater between 2021 and 2024. Sustaining rotor damage during its final landing, Ingenuity rests gracefully at 'Valinor Hills', having unlocked aerial reconnaissance on Mars.",
+    "thumbnail": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=400&q=80",
+    "banner": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=1200&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Apollo 17 Lunar Ascent Stage",
+    "shortDesc": "The final spacecraft component to launch humans off the lunar surface in 1972...",
+    "fullDesc": "After Gene Cernan and Harrison Schmitt completed the final Apollo lunar surface walks in December 1972, the Challenger ascent stage engine fired to rendezvous with the Command Module. After docking, the empty ascent stage was intentionally crashed into the Moon to calibrate lunar seismometers.",
+    "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&q=80",
+    "banner": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80"
+  }
+]
