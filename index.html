@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding Space | Abandoned but Not Forgotten</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="container">
+            <span class="badge">NASA Space Apps Challenge</span>
+            <h1>Finding Space</h1>
+            <p class="subtitle">Exploring the silent monuments left behind on the Moon and Mars—and the living legacies they left in our science.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="artifact-grid" id="artifactGrid">
+            
+        </section>
+
+        
+        <div id="detailModal" class="modal hidden">
+            <div class="modal-content">
+                <button id="closeModal" class="close-btn">&times;</button>
+                <h2 id="modalTitle"></h2>
+                <span id="modalLocation" class="location-tag"></span>
+                <p id="modalStory"></p>
+                <div class="science-box">
+                    <h3>The Science Legacy</h3>
+                    <p id="modalScience"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Built with curiosity for the NASA Space Apps Challenge | <span id="year"></span></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
