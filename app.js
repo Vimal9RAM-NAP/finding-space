@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const detailTitle = document.getElementById("detailTitle");
   const detailBannerImg = document.getElementById("detailBannerImg");
   const detailDescription = document.getElementById("detailDescription");
+  const nasaLink = document.getElementById("nasaLink");
 
   const btnGoBack = document.getElementById("btnGoBack");
   const btnShare = document.getElementById("btnShare");
@@ -15,7 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const aboutModal = document.getElementById("aboutModal");
   const btnCloseModal = document.getElementById("btnCloseModal");
 
-  
   fetch("artifacts.json")
     .then((res) => res.json())
     .then((data) => {
@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch((err) => console.error("Error loading artifacts:", err));
 
-  
   function renderWaveCards(items) {
     waveCardsContainer.innerHTML = "";
     items.forEach((item) => {
@@ -43,11 +42,17 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  
   function openDetailView(item) {
     detailTitle.textContent = item.name;
     detailBannerImg.src = item.banner;
     detailDescription.textContent = item.fullDesc;
+
+    if (item.nasaUrl) {
+      nasaLink.href = item.nasaUrl;
+      nasaLink.style.display = "inline-flex";
+    } else {
+      nasaLink.style.display = "none";
+    }
 
     viewDashboard.classList.add("hidden-view");
     viewDashboard.classList.remove("active-view");
@@ -56,7 +61,6 @@ document.addEventListener("DOMContentLoaded", () => {
     viewDetail.classList.add("active-view");
   }
 
-  
   btnGoBack.addEventListener("click", () => {
     viewDetail.classList.add("hidden-view");
     viewDetail.classList.remove("active-view");
@@ -65,7 +69,6 @@ document.addEventListener("DOMContentLoaded", () => {
     viewDashboard.classList.add("active-view");
   });
 
- 
   btnShare.addEventListener("click", () => {
     if (navigator.share) {
       navigator.share({
@@ -79,7 +82,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  
   btnAboutMe.addEventListener("click", () => {
     aboutModal.classList.remove("hidden-modal");
   });
