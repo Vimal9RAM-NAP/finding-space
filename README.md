@@ -1,9 +1,10 @@
 <h1 align="center">
-# FINDING SPACE
+FINDING SPACE
 </h1>
-> *Exploring the silent monuments left behind on the Moon and Mars—and the living legacies they left in our science.*
 
-An interactive web dashboard built for the **NASA Space Apps Challenge 2026**, under the challenge statement: **"Abandoned but not Forgotten: Storytelling about NASA's Discarded Equipment on the Moon and Mars"**.
+*Exploring the silent monuments left behind on the Moon and Mars—and the living legacies they left in our science.*
+
+*An interactive web dashboard built for the **NASA Space Apps Challenge 2026**, under the challenge statement: **"Abandoned but not Forgotten: Storytelling about NASA's Discarded Equipment on the Moon and Mars"**.*
 
 ![Finding Space Preview](https://img.shields.io/badge/Status-Live%20Deployment-success?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
@@ -11,13 +12,14 @@ An interactive web dashboard built for the **NASA Space Apps Challenge 2026**, u
 
 ---
 <h3 align="center">
-## Overview
+Overview
 </h3>
 
-**Finding Space** is a client-side web application designed to document, visualize, and tell the stories of historical hardware, retroreflectors, rovers, and landers left behind across lunar and Martian landscapes. By bridging historical archives with modern web design, the dashboard highlights how these "abandoned" relics continue to drive active scientific research today (such as lunar laser ranging via Apollo retroreflectors).
+> [!TIP]
+> **Finding Space** is a client-side web application designed to document, visualize, and tell the stories of historical hardware, retroreflectors, rovers, and landers left behind across lunar and Martian landscapes. By bridging historical archives with modern web design, the dashboard highlights how these "abandoned" relics continue to drive active scientific research today (such as lunar laser ranging via Apollo retroreflectors).
 
 <h3 align="center">
-##  Features
+Features
 </h3>
 
 * **Interactive Artifact Cards:** Dynamic card grid showcasing iconic hardware (Apollo Retroreflectors, Opportunity "Oppy", Perseverance Heat Shield, and more).
@@ -27,7 +29,7 @@ An interactive web dashboard built for the **NASA Space Apps Challenge 2026**, u
 * **Fully Client-Side & Lightweight:** Zero heavy backend dependencies, ensuring blazing-fast load times and smooth deployment.
 
 <h3 align="center">
-## Tech Stack
+Tech Stack
 </h3>
 
 * **Markup & Structure:** HTML5
@@ -37,7 +39,7 @@ An interactive web dashboard built for the **NASA Space Apps Challenge 2026**, u
 * **Hosting & Deployment:** GitHub Pages
 
 <h3 align="center">
-##  Repository Structure
+Repository Structure
 </h3>
 
 ```text
@@ -49,19 +51,19 @@ An interactive web dashboard built for the **NASA Space Apps Challenge 2026**, u
 └── LICENSE          # MIT License
 ```
 <h3 align="center">
-## Live Demo
+Live Demo
 </h3>
 
 Check out the live deployment hosted via GitHub Pages:
  https://vimal9ram-nap.github.io/finding-space/
 
 <h3 align="center">
-## Author
+Author
 </h3>
 
 Built by Vimal Ram (@Vimal9RAM-NAP) for the NASA Space Apps Challenge 2026.
 
 <h3 align="center">
-## License
+License
 </h3>
 This project is open-source and available under the ```MIT License```
