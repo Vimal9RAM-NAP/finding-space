@@ -12,14 +12,14 @@ FINDING SPACE
 
 ---
 <h3 align="center">
-Overview
+OVERVIEW
 </h3>
 
 > [!TIP]
 > **Finding Space** is a client-side web application designed to document, visualize, and tell the stories of historical hardware, retroreflectors, rovers, and landers left behind across lunar and Martian landscapes. By bridging historical archives with modern web design, the dashboard highlights how these "abandoned" relics continue to drive active scientific research today (such as lunar laser ranging via Apollo retroreflectors).
 
 <h3 align="center">
-Features
+FEATURES
 </h3>
 
 * **Interactive Artifact Cards:** Dynamic card grid showcasing iconic hardware (Apollo Retroreflectors, Opportunity "Oppy", Perseverance Heat Shield, and more).
@@ -29,7 +29,7 @@ Features
 * **Fully Client-Side & Lightweight:** Zero heavy backend dependencies, ensuring blazing-fast load times and smooth deployment.
 
 <h3 align="center">
-Tech Stack
+TECH STACK
 </h3>
 
 * **Markup & Structure:** HTML5
@@ -39,7 +39,7 @@ Tech Stack
 * **Hosting & Deployment:** GitHub Pages
 
 <h3 align="center">
-Repository Structure
+REPOSITORY STRUCTURE
 </h3>
 
 ```text
@@ -51,19 +51,19 @@ Repository Structure
 └── LICENSE          # MIT License
 ```
 <h3 align="center">
-Live Demo
+LIVE DEMO
 </h3>
 
 Check out the live deployment hosted via GitHub Pages:
  https://vimal9ram-nap.github.io/finding-space/
 
 <h3 align="center">
-Author
+AUTHOR
 </h3>
 
 Built by Vimal Ram (@Vimal9RAM-NAP) for the NASA Space Apps Challenge 2026.
 
 <h3 align="center">
-License
+LICENSE
 </h3>
 This project is open-source and available under the ```MIT License```
