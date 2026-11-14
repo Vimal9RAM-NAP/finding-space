@@ -66,4 +66,4 @@ Built by Vimal Ram (@Vimal9RAM-NAP) for the NASA Space Apps Challenge 2026.
 <h3 align="center">
 LICENSE
 </h3>
-This project is open-source and available under the MIT License
+This project is open-source and available under the MIT License.
